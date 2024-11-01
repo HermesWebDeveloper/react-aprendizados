@@ -12,11 +12,15 @@ function Header() {
                 <nav>
                     <ul className="flex justify-between gap-12">
                         <li className="relative group">
+                            <a href="/" className="text-black">Home</a>
+                            <span className="absolute left-0 bottom-0 w-0 h-[1px] bg-black transition-all duration-300 group-hover:w-full"></span>
+                        </li>
+                        <li className="relative group">
                             <a href="#" className="text-black">Projetos</a>
                             <span className="absolute left-0 bottom-0 w-0 h-[1px] bg-black transition-all duration-300 group-hover:w-full"></span>
                         </li>
                         <li className="relative group">
-                            <a href="#" className="text-black">Aprendizados</a>
+                            <a href="./aprendizados" className="text-black">Aprendizados</a>
                             <span className="absolute left-0 bottom-0 w-0 h-[1px] bg-black transition-all duration-300 group-hover:w-full"></span>
                         </li>
                         <li className="relative group">
